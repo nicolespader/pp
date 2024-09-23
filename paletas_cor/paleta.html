@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Paleta de Cores</title>
+    <link rel="stylesheet" href="paleta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Paleta de Cores</h1>
+        <form id="colorForm">
+            <label for="targetAudience">Qual seu público-alvo?</label>
+            <input type="text" id="targetAudience" name="targetAudience" required>
+
+            <label for="product">Com que produto você trabalha?</label>
+            <input type="text" id="product" name="product" required>
+
+            <label for="marketArea">Qual é sua área no mercado?</label>
+            <input type="text" id="marketArea" name="marketArea" required>
+
+            <button type="button" id="drawButton">Sortear</button>
+        </form>
+        <div id="colorPalette">
+            <h2>Paleta de Cores Sorteada</h2>
+            <div id="paletteDisplay"></div>
+        </div>
+    </div>
+    <script src="paleta.js"></script>
+</body>
+</html>

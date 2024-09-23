@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(48, 47, 53);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(42, 225, 238);
+    color: white;
+}
+.navbar .left, .navbar .right {
+    display: flex;
+    align-items: center;
+}
+.navbar .center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar button {
+    background-color: rgb(48, 47, 53);
+    color: rgb(42, 225, 238);
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navbar button:hover {
+    background-color: rgb(42, 225, 238);
+    color: white;
+}
+.navbar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+.button {
+    display: block;
+    width: 700px;
+    margin: 40px auto;
+    padding: 45px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+    background-color: rgb(42, 225, 238);
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 10px 10px rgb(43, 41, 41);
+}
+.button:hover {
+    background-color: rgb(42, 200, 238);
+}
