@@ -1,18 +1,7 @@
+import { firebaseConfig  } from "./firebaseConfig.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
 import { getAuth, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 import { getDatabase, ref, set, get, update } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
-
-// Configuração do Firebase para se conectar ao projeto
-const firebaseConfig = {          //características do meu DB:
-    apiKey: "AIzaSyBhYtuqbpu7-ZNWTSlz56QprrBCKAyZ3Jg",
-    authDomain: "pad-app-9a351.firebaseapp.com",
-    databaseURL: "https://pad-app-9a351-default-rtdb.firebaseio.com",   
-    projectId: "pad-app-9a351",
-    storageBucket: "pad-app-9a351.appspot.com",
-    messagingSenderId: "592967616018",
-    appId: "1:592967616018:web:49ed415458f7fc0baafacb",
-    measurementId: "G-3SXC6RPM2L"
-};
 
 // Inicializa o Firebase com a configuração fornecida
 const app = initializeApp(firebaseConfig);     
