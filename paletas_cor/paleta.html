@@ -11,13 +11,31 @@
         <h1>Sorteio de Paleta de Cores</h1>
         <form id="colorForm">
             <label for="targetAudience">Qual seu público-alvo?</label>
-            <input type="text" id="targetAudience" name="targetAudience" required>
+            <select id="targetAudience" name="targetAudience" required>
+                <option value="" disabled selected>Selecione...</option>
+                <option value="adolescentes">Adolescentes</option>
+                <option value="adultos">Adultos</option>
+                <option value="crianças">Crianças</option>
+                <option value="idosos">Idosos</option>
+            </select>
 
             <label for="product">Com que produto você trabalha?</label>
-            <input type="text" id="product" name="product" required>
+            <select id="product" name="product" required>
+                <option value="" disabled selected>Selecione...</option>
+                <option value="roupas">Roupas</option>
+                <option value="tecnologia">Tecnologia</option>
+                <option value="alimentos">Alimentos</option>
+                <option value="cosmeticos">Cosméticos</option>
+            </select>
 
             <label for="marketArea">Qual é sua área no mercado?</label>
-            <input type="text" id="marketArea" name="marketArea" required>
+            <select id="marketArea" name="marketArea" required>
+                <option value="" disabled selected>Selecione...</option>
+                <option value="varejo">Varejo</option>
+                <option value="serviços">Serviços</option>
+                <option value="educação">Educação</option>
+                <option value="saúde">Saúde</option>
+            </select>
 
             <button type="button" id="drawButton">Sortear</button>
         </form>
