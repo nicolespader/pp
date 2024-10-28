@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(42, 225, 238);
+    background-color: #2d3250;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color: rgb(48, 47, 53);
+    background-color: #424769;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,8 @@ body {
 }
 
 .voltar {
-    background-color: rgb(42, 225, 238);
-    color: rgb(0, 0, 0);
+    background-color: #f6b17a;
+    color: #2d3250;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -25,8 +25,8 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.back-button:hover {
-    background-color: #36b8d1;
+.voltar:hover {
+    background-color: #e69956;
 }
 
 .header h1 {
@@ -42,7 +42,7 @@ body {
 }
 
 .color-box {
-    background-color: rgb(48, 47, 53);
+    background-color: #424769;
     color: white;
     padding: 20px;
     width: 28%; /* Reduzi o tamanho dos quadrados */
@@ -68,6 +68,6 @@ body {
 }
 
 a {
-    color: aqua;
+    color: #f6b17a;
     text-decoration: none;
 }

@@ -1,71 +1,72 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing:
-    border-box;
+    box-sizing: border-box;
 }
- 
-body{
-    background-color: rgb(48, 47, 53);
+
+body {
+    background-color: #2d3250;
     color: white;
-   
 }
- 
-.inicio{
+
+.inicio {
     height: 100vh;
     position: relative;
     text-align: center;
 }
- 
-.titulo{
-    background: rgb(45, 203, 214);
+
+.titulo {
+    background: #424769;
     padding: 15px;
     box-shadow: 0 0 10px #000;
 }
- 
-.quiz_titulo{
+
+.quiz_titulo {
     font-size: 4rem;
+    color: #f6b17a;
 }
- 
-.pontos{
+
+.pontos {
     padding: 15px 0;
     font-size: 1rem;
+    color: #b6b7d4;
 }
- 
-.questoes-box{
+
+.questoes-box {
     background: white;
     padding: 30px;
-    color: rgb(48, 47, 53);
+    color: #2d3250;
     font-size: 1.8rem;
     width: 80vw;
     margin: 15px auto;
     border-radius: 15px;
 }
- 
-.opcao-wrapper{
+
+.opcao-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80vw;
     margin: 0 auto;
 }
- 
+
 .opcao-left,
-.opcao-right{
+.opcao-right {
     width: 50%;
 }
- 
-.opcao-box{
+
+.opcao-box {
     width: 40vw;
     height: 70px;
     margin: 20px;
-    background: rgb(42, 225, 238);
+    background: #f6b17a;
     border-radius: 50px;
     position: relative;
+    color: #2d3250;
 }
 
 a {
     color: white;
-    
+    text-decoration: none;
 }
- 
+
