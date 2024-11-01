@@ -13,117 +13,116 @@ function generateColorPalette(audience, product, market) {
 
     // Adolescentes
     if (audience === 'adolescentes' && product === 'roupas' && market === 'varejo') {
-        colors = ['#FF69B4', '#FF69B4', '#FF69B4']; // Cores aleatórias
+        colors = ['#FF69B4', '#FFC0CB', '#FF1493'];
     } else if (audience === 'adolescentes' && product === 'roupas' && market === 'serviços') {
-        colors = ['#00008B', '#00008B', '#00008B']; 
+        colors = ['#8A2BE2', '#9370DB', '#4B0082'];
     } else if (audience === 'adolescentes' && product === 'roupas' && market === 'educação') {
-        colors = ['#FFD700', '#FFD700', '#FFD700']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'adolescentes' && product === 'roupas' && market === 'saúde') {
-        colors = ['#32CD32', '#32CD32', '#32CD32'];
+        colors = ['#32CD32', '#228B22', '#006400'];
 
     } else if (audience === 'adolescentes' && product === 'tecnologia' && market === 'varejo') {
-        colors = ['#8B0000', '#8B0000', '#8B0000']; 
+        colors = ['#4682B4', '#5F9EA0', '#6495ED'];
     } else if (audience === 'adolescentes' && product === 'tecnologia' && market === 'serviços') {
-        colors = ['#FFA07A', '#FFA07A', '#FFA07A']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'adolescentes' && product === 'tecnologia' && market === 'educação') {
-        colors = ['#9370DB', '#9370DB', '#9370DB']; 
+        colors = ['#FF4500', '#FF6347', '#CD5C5C'];
     } else if (audience === 'adolescentes' && product === 'tecnologia' && market === 'saúde') {
-        colors = ['#20B2AA', '#20B2AA', '#20B2AA'];
+        colors = ['#00CED1', '#20B2AA', '#48D1CC'];
 
     } else if (audience === 'adolescentes' && product === 'alimentos' && market === 'varejo') {
-        colors = ['#FF4500', '#FF4500', '#FF4500']; 
+        colors = ['#FF6347', '#FF4500', '#CD5C5C'];
     } else if (audience === 'adolescentes' && product === 'alimentos' && market === 'serviços') {
-        colors = ['#DA70D6', '#DA70D6', '#DA70D6']; 
+        colors = ['#32CD32', '#228B22', '#006400'];
     } else if (audience === 'adolescentes' && product === 'alimentos' && market === 'educação') {
-        colors = ['#FFDAB9', '#FFDAB9', '#FFDAB9']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'adolescentes' && product === 'alimentos' && market === 'saúde') {
-        colors = ['#FF6347', '#FF6347', '#FF6347'];
+        colors = ['#8A2BE2', '#9370DB', '#4B0082'];
 
     } else if (audience === 'adolescentes' && product === 'cosmeticos' && market === 'varejo') {
-        colors = ['#800080', '#800080', '#800080']; 
+        colors = ['#FF69B4', '#FFC0CB', '#FF1493'];
     } else if (audience === 'adolescentes' && product === 'cosmeticos' && market === 'serviços') {
-        colors = ['#FFD700', '#FFD700', '#FFD700']; 
+        colors = ['#8B008B', '#FF00FF', '#C71585'];
     } else if (audience === 'adolescentes' && product === 'cosmeticos' && market === 'educação') {
-        colors = ['#4169E1', '#4169E1', '#4169E1']; 
+        colors = ['#4169E1', '#4682B4', '#1E90FF'];
     } else if (audience === 'adolescentes' && product === 'cosmeticos' && market === 'saúde') {
-        colors = ['#8A2BE2', '#8A2BE2', '#8A2BE2'];
+        colors = ['#FFB6C1', '#FF69B4', '#FF1493'];
 
     // Adultos
     } else if (audience === 'adultos' && product === 'roupas' && market === 'varejo') {
-        colors = ['#FF69B4', '#FFD700', '#FF69B4']; 
+        colors = ['#A52A2A', '#D2691E', '#8B4513'];
     } else if (audience === 'adultos' && product === 'roupas' && market === 'serviços') {
-        colors = ['#00008B', '#FFA07A', '#00008B']; 
+        colors = ['#4682B4', '#5F9EA0', '#1E90FF'];
     } else if (audience === 'adultos' && product === 'roupas' && market === 'educação') {
-        colors = ['#4682B4', '#4682B4', '#4682B4']; 
+        colors = ['#8B0000', '#B22222', '#FF6347'];
     } else if (audience === 'adultos' && product === 'roupas' && market === 'saúde') {
-        colors = ['#7FFF00', '#7FFF00', '#7FFF00'];
+        colors = ['#32CD32', '#228B22', '#006400'];
 
     } else if (audience === 'adultos' && product === 'tecnologia' && market === 'varejo') {
-        colors = ['#FF4500', '#FF4500', '#FF4500']; 
+        colors = ['#00CED1', '#20B2AA', '#48D1CC'];
     } else if (audience === 'adultos' && product === 'tecnologia' && market === 'serviços') {
-        colors = ['#6A5ACD', '#6A5ACD', '#6A5ACD']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'adultos' && product === 'tecnologia' && market === 'educação') {
-        colors = ['#4682B4', '#4682B4', '#4682B4']; 
+        colors = ['#FF4500', '#FF6347', '#CD5C5C'];
     } else if (audience === 'adultos' && product === 'tecnologia' && market === 'saúde') {
-        colors = ['#B22222', '#B22222', '#B22222'];
+        colors = ['#4682B4', '#5F9EA0', '#6495ED'];
 
     } else if (audience === 'adultos' && product === 'alimentos' && market === 'varejo') {
-        colors = ['#FF4500', '#FF6347', '#FF4500']; 
+        colors = ['#FF6347', '#FF4500', '#CD5C5C'];
     } else if (audience === 'adultos' && product === 'alimentos' && market === 'serviços') {
-        colors = ['#FFD700', '#32CD32', '#FFD700']; 
+        colors = ['#32CD32', '#228B22', '#006400'];
     } else if (audience === 'adultos' && product === 'alimentos' && market === 'educação') {
-        colors = ['#8A2BE2', '#8A2BE2', '#8A2BE2']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'adultos' && product === 'alimentos' && market === 'saúde') {
-        colors = ['#7FFF00', '#7FFF00', '#7FFF00'];
+        colors = ['#8A2BE2', '#9370DB', '#4B0082'];
 
     } else if (audience === 'adultos' && product === 'cosmeticos' && market === 'varejo') {
-        colors = ['#FFB6C1', '#FFB6C1', '#FFB6C1']; 
+        colors = ['#FF69B4', '#FFC0CB', '#FF1493'];
     } else if (audience === 'adultos' && product === 'cosmeticos' && market === 'serviços') {
-        colors = ['#FF69B4', '#FF69B4', '#FF69B4']; 
+        colors = ['#8B008B', '#FF00FF', '#C71585'];
     } else if (audience === 'adultos' && product === 'cosmeticos' && market === 'educação') {
-        colors = ['#8B0000', '#8B0000', '#8B0000']; 
+        colors = ['#4169E1', '#4682B4', '#1E90FF'];
     } else if (audience === 'adultos' && product === 'cosmeticos' && market === 'saúde') {
-        colors = ['#FF4500', '#FF4500', '#FF4500'];
+        colors = ['#FFB6C1', '#FF69B4', '#FF1493'];
 
     // Crianças
     } else if (audience === 'crianças' && product === 'roupas' && market === 'varejo') {
-        colors = ['#FFD700', '#FFD700', '#FFD700']; 
+        colors = ['#FFD700', '#FFA500', '#FF8C00'];
     } else if (audience === 'crianças' && product === 'roupas' && market === 'serviços') {
-        colors = ['#32CD32', '#32CD32', '#32CD32']; 
+        colors = ['#32CD32', '#228B22', '#006400'];
     } else if (audience === 'crianças' && product === 'roupas' && market === 'educação') {
-        colors = ['#FF4500', '#FF4500', '#FF4500']; 
+        colors = ['#FF6347', '#FF4500', '#CD5C5C'];
     } else if (audience === 'crianças' && product === 'roupas' && market === 'saúde') {
-        colors = ['#FF69B4', '#FF69B4', '#FF69B4'];
+        colors = ['#FF69B4', '#FFC0CB', '#FF1493'];
 
     } else if (audience === 'crianças' && product === 'tecnologia' && market === 'varejo') {
-        colors = ['#00CED1', '#00CED1', '#00CED1']; 
+        colors = ['#00CED1', '#20B2AA', '#48D1CC'];
     } else if (audience === 'crianças' && product === 'tecnologia' && market === 'serviços') {
-        colors = ['#6A5ACD', '#6A5ACD', '#6A5ACD']; 
+        colors = ['#6A5ACD', '#483D8B', '#7B68EE'];
     } else if (audience === 'crianças' && product === 'tecnologia' && market === 'educação') {
-        colors = ['#B22222', '#B22222', '#B22222']; 
+        colors = ['#B22222', '#FF6347', '#CD5C5C'];
     } else if (audience === 'crianças' && product === 'tecnologia' && market === 'saúde') {
-        colors = ['#7FFF00', '#7FFF00', '#7FFF00'];
+        colors = ['#7FFF00', '#32CD32', '#ADFF2F'];
 
     // Idosos
     } else if (audience === 'idosos' && product === 'roupas' && market === 'varejo') {
-        colors = ['#808080', '#808080', '#808080']; 
+        colors = ['#808080', '#A9A9A9', '#696969'];
     } else if (audience === 'idosos' && product === 'roupas' && market === 'serviços') {
-        colors = ['#B0C4DE', '#B0C4DE', '#B0C4DE']; 
+        colors = ['#B0C4DE', '#87CEEB', '#4682B4'];
     } else if (audience === 'idosos' && product === 'roupas' && market === 'educação') {
-        colors = ['#B8860B', '#B8860B', '#B8860B']; 
+        colors = ['#B8860B', '#DAA520', '#FFD700'];
     } else if (audience === 'idosos' && product === 'roupas' && market === 'saúde') {
-        colors = ['#FF69B4', '#FF69B4', '#FF69B4'];
+        colors = ['#FF69B4', '#FFC0CB', '#FF1493'];
 
     } else if (audience === 'idosos' && product === 'tecnologia' && market === 'varejo') {
-        colors = ['#4682B4', '#4682B4', '#4682B4']; 
+        colors = ['#4682B4', '#5F9EA0', '#1E90FF'];
     } else if (audience === 'idosos' && product === 'tecnologia' && market === 'serviços') {
-        colors = ['#FF4500', '#FF4500', '#FF4500']; 
+        colors = ['#FF4500', '#FF6347', '#CD5C5C'];
     } else if (audience === 'idosos' && product === 'tecnologia' && market === 'educação') {
-        colors = ['#6A5ACD', '#6A5ACD', '#6A5ACD']; 
+        colors = ['#6A5ACD', '#483D8B', '#7B68EE'];
     } else if (audience === 'idosos' && product === 'tecnologia' && market === 'saúde') {
-        colors = ['#B0C4DE', '#B0C4DE', '#B0C4DE'];
+        colors = ['#B0C4DE', '#87CEEB', '#4682B4'];
 
-    // Continue com todas as combinações...
     }
 
     return colors;
@@ -131,7 +130,7 @@ function generateColorPalette(audience, product, market) {
 
 function displayPalette(colors) {
     const paletteDisplay = document.getElementById('paletteDisplay');
-    paletteDisplay.innerHTML = ''; // Limpa as cores anteriores
+    paletteDisplay.innerHTML = '';
 
     colors.forEach(color => {
         const colorBox = document.createElement('div');

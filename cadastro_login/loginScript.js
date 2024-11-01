@@ -10,3 +10,4 @@ document.addEventListener('DOMContentLoaded', function() { /** o domcontentloade
             window.location.href = "../tela_principal/principal.html";
         });
 });
+

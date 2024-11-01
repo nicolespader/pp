@@ -5,25 +5,25 @@ body {
     overflow: hidden;
     height: 100vh;
     margin: 0;
-    background-color: rgb(48, 47, 53); /* Cor de fundo do corpo */
+    background-color: #2d3250; /* Cor de fundo do corpo */
 }
 
 .container {
     width: 700px;
     display: flex;
     flex-direction: column;
-    background: rgb(42, 225, 238); /* Cor fundo contêiner */
-    box-shadow: 5px 0px 5px 5px rgb(48, 47, 53); /* Sombra contêiner */
+    background: #424769; /* Cor fundo contêiner */
+    box-shadow: 5px 0px 5px 5px #2d3250; /* Sombra contêiner */
     border-radius: 20px; /* Borda arredondada contêiner */
     padding: 2em; /* Espaçamento interno contêiner */
     align-items: center; /* Centraliza horizontalmente */
 }
 
 .container h1 {
-    font-family: 'open_sansregular';
+    font-family: 'Raleway', sans-serif;
     font-size: 2.3em;
-    color: #000000;
-    border-bottom: 1px rgb(48, 47, 53); /* Cor borda inferior título */
+    color: #f6b17a; /* Cor do título */
+    border-bottom: 1px solid #2d3250; /* Cor borda inferior título */
     margin-bottom: 20px; /* Espaçamento abaixo título */
     padding-bottom: 10px;
     text-align: center; /* Centraliza texto título */
@@ -43,6 +43,7 @@ body {
     width: 100%;
     text-align: left; /* Alinha o texto do label à esquerda */
     font-weight: bold;
+    color: #f6b17a; /* Cor do label */
 }
 
 .form_input {
@@ -51,6 +52,8 @@ body {
     border-radius: 10px; /* Borda arredondada para os campos de entrada */
     border: 1px solid #ccc;
     margin-bottom: 10px; /* Espaçamento entre o input e o próximo elemento */
+    background-color: #2d3250; /* Cor de fundo do input */
+    color: #f6b17a; /* Cor do texto do input */
 }
 
 .form_submit {
@@ -58,8 +61,8 @@ body {
     padding: 15px; /* Aumentado para melhorar a usabilidade */
     border-radius: 10px; /* Borda arredondada para o botão */
     border: none;
-    background-color: rgb(48, 47, 53); /* Cor de fundo do botão */
-    color: #ffffff; /* Cor do texto do botão */
+    background-color: #f6b17a; /* Cor de fundo do botão */
+    color: #2d3250; /* Cor do texto do botão */
     font-size: 1.1em; /* Tamanho da fonte do botão */
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -67,5 +70,5 @@ body {
 }
 
 .form_submit:hover {
-    background-color: rgb(30, 30, 30); /* Cor do botão ao passar o mouse */
+    background-color: #e69956; /* Cor do botão ao passar o mouse */
 }
